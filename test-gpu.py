@@ -128,4 +128,4 @@ if __name__ == "__main__":
     print(f"Dims: {args.dims}")
     print(f"GPUs: {args.gpus}")
     check_dependencies()
-    load_gpu(args.max_temp,args.batch_size, args.dims, args.gpus)
+    #load_gpu(args.max_temp,args.batch_size, args.dims, args.gpus)
